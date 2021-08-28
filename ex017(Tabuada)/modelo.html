@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="icon" href="imagens/tabuada.ico">
+
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <p>Tabuada</p>
+    </header>
+    <section> 
+        <div>
+            Número:
+            <input type="number" name='txtnum' id='txtnumero'>
+            <input id="button" type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
+        </div>     
+                
+        <div>
+             <select name="tabuada" id="resultado" size="10"> <!-- size="10" para manter o tamanho da tabuada -->
+                <option>Digite no campo acima</option>
+            </select>            
+        </div>        
+    </section>
+    <footer>
+        <p>&copy Leandro Camargo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
